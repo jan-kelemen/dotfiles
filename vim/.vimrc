@@ -5,15 +5,30 @@ inoremap jj <Esc>
 set nocompatible
 set t_Co=256
 
+"Use system clipboard by default
+set clipboard=unnamedplus,autoselect
+
+"Show the name of currently edited file in window title
+set title
+
 "Allow execution of local vim configuration files
 set exrc
 set secure
 
-"By default backspace doesn't go on the previous line
+"Make vim behave normally when using backspace
 set backspace=indent,eol,start
+
+"Enable use of mouse in terminal for selection
+set mouse=a
 
 "Show curenntly edited file
 set laststatus=2
+
+"Case insensitive pattern matching
+set ignorecase
+
+"Disable ignorecase when pattern contains uppercase characters
+set smartcase
 
 "Execute search when typing the query
 set incsearch
@@ -21,8 +36,14 @@ set incsearch
 "Highlight search results
 set hlsearch
 
+"Disable wrapping 
+set nowrap
+
 "Highlight the N'th column
 set colorcolumn=80
+
+"Show cursor position
+set ruler
 
 "Indentation settings
 filetype plugin indent on
