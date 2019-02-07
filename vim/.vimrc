@@ -24,6 +24,9 @@ set mouse=a
 "Show curenntly edited file
 set laststatus=2
 
+"More conventional sides to open new windows
+set splitbelow splitright
+
 "Case insensitive pattern matching
 set ignorecase
 
