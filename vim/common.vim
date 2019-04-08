@@ -5,9 +5,6 @@ inoremap jj <Esc>
 set nocompatible
 set t_Co=256
 
-"Use system clipboard by default
-set clipboard=unnamedplus,autoselect
-
 "Show the name of currently edited file in window title
 set title
 
@@ -42,9 +39,6 @@ set hlsearch
 "Disable wrapping 
 set nowrap
 
-"Highlight the N'th column
-set colorcolumn=80
-
 "Show cursor position
 set ruler
 
@@ -52,8 +46,6 @@ set ruler
 filetype plugin indent on
 set autoindent
 set expandtab
-set shiftwidth=4
-set softtabstop=4
 
 "Turn on syntax highlighting
 syntax on
