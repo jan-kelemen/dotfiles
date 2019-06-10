@@ -11,3 +11,5 @@ let g:ycm_use_clangd = 0
 
 so /media/data/git/dotfiles/vim/vundle.vim
 
+colorscheme molokai
+
