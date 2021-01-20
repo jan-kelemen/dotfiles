@@ -1,6 +1,9 @@
 "Karpal tunnel syndrome
 inoremap jj <Esc>
 
+"Switch the leader key to ',' instead of '\'
+let mapleader = ","
+
 "Enter 21st century
 set nocompatible
 set t_Co=256

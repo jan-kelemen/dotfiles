@@ -1,10 +1,10 @@
 filetype off
 
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'rhysd/vim-clang-format'
+  Plugin 'VundleVim/Vundle.vim'
+  Plugin 'Valloric/YouCompleteMe'
+  Plugin 'rhysd/vim-clang-format'
+  Plugin 'preservim/nerdtree'
 call vundle#end()
 
 filetype on
