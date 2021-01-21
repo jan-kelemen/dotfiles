@@ -69,3 +69,7 @@ set wildmenu
 "File browsing settings
 let g:netrw_banner=0
 
+"Enable code folding
+set foldmethod=syntax   
+set foldnestmax=10
+set nofoldenable
