@@ -107,3 +107,4 @@ vim +PluginInstall +qall
 cd ~/.vim/bundle/YouCompleteMe
 python3 install.py --clangd-completer --rust-completer
 
+git config --global core.editor vim
