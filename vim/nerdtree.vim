@@ -27,3 +27,4 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " Open the existing NERDTree on each new tab
 autocmd BufWinEnter * silent NERDTreeMirror
 
+autocmd BufEnter NERD_* setlocal nornu

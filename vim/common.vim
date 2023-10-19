@@ -73,3 +73,20 @@ let g:netrw_banner=0
 set foldmethod=syntax   
 set foldnestmax=10
 set nofoldenable
+
+"Enable increment of letters with <C-a> & <C-x>
+set nrformats=bin,octal,hex,alpha
+
+"increment/decrement nubmers with +/-
+nnoremap + <C-a>
+nnoremap - <C-x>
+
+"Center cursor
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+
+"Resize window
+nnoremap <Leader>h :vertical resize +5 <CR>
+nnoremap <Leader>l :vertical resize -5 <CR>
+nnoremap <Leader>j :resize +5 <CR>
+nnoremap <Leader>k :resize -5 <CR>
