@@ -90,3 +90,7 @@ nnoremap <Leader>h :vertical resize +5 <CR>
 nnoremap <Leader>l :vertical resize -5 <CR>
 nnoremap <Leader>j :resize +5 <CR>
 nnoremap <Leader>k :resize -5 <CR>
+
+"Reload file modifed on disk
+set autoread
+au CursorHold * checktime
