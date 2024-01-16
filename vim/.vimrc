@@ -1,4 +1,5 @@
 so ~/git/dotfiles/vim/common.vim
+so ~/git/dotfiles/vim/clipboard.vim
 so ~/git/dotfiles/vim/linux.vim
 so ~/git/dotfiles/vim/indent4.vim
 so ~/git/dotfiles/vim/indents.vim
