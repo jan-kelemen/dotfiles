@@ -1,3 +1,6 @@
+" Show hidden files by default
+let NERDTreeShowHidden=1
+
 " Add shortcut to switch to the tree window 
 nnoremap <leader>dn :NERDTreeFocus<CR>
 
