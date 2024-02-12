@@ -1,6 +1,6 @@
 so ~/git/dotfiles/vim/common.vim
 so ~/git/dotfiles/vim/clipboard.vim
-so ~/git/dotfiles/vim/linux.vim
+so ~/git/dotfiles/vim/os.vim
 so ~/git/dotfiles/vim/indents.vim
 so ~/git/dotfiles/vim/colorcolumn80.vim
 
