@@ -1,3 +1,8 @@
+"Indentation settings
+filetype plugin indent on
+set autoindent
+set expandtab
+
 "Indent by 4 spaces
 set tabstop=4
 set softtabstop=4

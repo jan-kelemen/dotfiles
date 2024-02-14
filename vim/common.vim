@@ -45,11 +45,6 @@ set nowrap
 "Show cursor position
 set ruler
 
-"Indentation settings
-filetype plugin indent on
-set autoindent
-set expandtab
-
 "Turn on syntax highlighting
 syntax on
 
@@ -68,11 +63,6 @@ set wildmenu
 
 "File browsing settings
 let g:netrw_banner=0
-
-"Enable code folding
-set foldmethod=syntax   
-set foldnestmax=10
-set nofoldenable
 
 "Enable increment of letters with <C-a> & <C-x>
 set nrformats=bin,octal,hex,alpha
