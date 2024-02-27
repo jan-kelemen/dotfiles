@@ -120,12 +120,3 @@ if [ -f ~/.cargo/env ]; then
     . ~/.cargo/env
 fi
 
-if [ -d /mnt/work/lo ]; then
-    export CONAN_USER_HOME=/mnt/work/lo
-
-    export NUGET_PACKAGES=/mnt/work/lo/.nuget/packages
-    export NUGET_HTTP_CACHE_PATH=/mnt/work/lo/.local/share/NuGet/v3-cache
-    export NUGET_PLUGINS_CACHE_PATH=/mnt/work/lo/.local/share/NuGet/plugins-cache
-
-    export GRADLE_USER_HOME=/mnt/work/lo/.gradle
-fi
