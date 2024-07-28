@@ -3,8 +3,6 @@ if has('win32') || has('win64')
     set directory=%TEMP%//
     set undodir=%TEMP%//
 else 
-    packadd termdebug
-
     set backupdir=/tmp//
     set directory=/tmp//
     set undodir=/tmp//
