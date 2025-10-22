@@ -11,7 +11,9 @@ if !has('nvim')
     "Define the vundlepath variable in the including .vimrc to include Vundle
     set runtimepath+=~/.vim/bundle/Vundle.vim
     so ~/git/dotfiles/vim/vundle.vim
-    so ~/git/dotfiles/vim/ycm.vim
+    if !has_key(environ(), "MINGW_PREFIX")
+        so ~/git/dotfiles/vim/ycm.vim
+    endif
     so ~/git/dotfiles/vim/nerdtree.vim
     so ~/git/dotfiles/vim/undotree.vim
 endif
