@@ -12,7 +12,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}
+    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+    { "preservim/nerdtree", init = function() vim.cmd('source ~/git/dotfiles/vim/nerdtree.vim') end },
+    { "mbbill/undotree", init = function() vim.cmd('source ~/git/dotfiles/vim/undotree.vim') end }
 })
 
 require'nvim-treesitter.configs'.setup {

@@ -13,6 +13,7 @@ if !has('nvim')
     so ~/git/dotfiles/vim/vundle.vim
     so ~/git/dotfiles/vim/ycm.vim
     so ~/git/dotfiles/vim/nerdtree.vim
+    so ~/git/dotfiles/vim/undotree.vim
 endif
 
 colorscheme molokai
