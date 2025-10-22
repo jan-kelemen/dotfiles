@@ -17,20 +17,13 @@ require("lazy").setup({
 
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {
-      "bash", "bibtex",
-      "c", "c_sharp", "cmake", "comment", "cpp", "css",
-      "diff", "dockerfile", "doxygen",
-      "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore",
-      "java", "javascript", "jsonc",
-      "kotlin",
-      "latex", "lua", "llvm",
+      "bash",
+      "c", "c_sharp", "cmake", "cpp",
+      "diff",
+      "gitcommit",
       "make",
-      "proto", "python",
-      "query",
-      "regex", "rust",
-      "sql", 
-      "typescript",
-      "vim", "vimdoc",
+      "rust",
+      "vim",
       "xml" 
   },
   sync_install = false,
