@@ -1,3 +1,5 @@
+set runtimepath+=~/git/dotfiles/vim
+
 so ~/git/dotfiles/vim/common.vim
 so ~/git/dotfiles/vim/clipboard.vim
 so ~/git/dotfiles/vim/os.vim
@@ -14,4 +16,3 @@ if !has('nvim')
 endif
 
 colorscheme molokai
-
