@@ -12,26 +12,28 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+    { 
+        "nvim-treesitter/nvim-treesitter",
+        opts = {
+            ensure_installed = {
+                "bash",
+                "c", "c_sharp", "cmake", "cpp",
+                "diff",
+                "gitcommit",
+                "make",
+                "rust",
+                "vim",
+                "xml" 
+            },
+            sync_install = false,
+            auto_install = false,
+            highlight = {
+              enable = true,
+              additional_vim_regex_highlighting = false,
+            },
+        },
+    },
     { "preservim/nerdtree", init = function() vim.cmd('source ~/git/dotfiles/vim/nerdtree.vim') end },
     { "mbbill/undotree", init = function() vim.cmd('source ~/git/dotfiles/vim/undotree.vim') end }
 })
 
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = {
-      "bash",
-      "c", "c_sharp", "cmake", "cpp",
-      "diff",
-      "gitcommit",
-      "make",
-      "rust",
-      "vim",
-      "xml" 
-  },
-  sync_install = false,
-  auto_install = false,
-  highlight = {
-    enable = true,
-    additional_vim_regex_highlighting = false,
-  },
-}
