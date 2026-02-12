@@ -84,3 +84,5 @@ nnoremap <Leader>k :resize -5 <CR>
 "Reload file modifed on disk
 set autoread
 au CursorHold * checktime
+
+set scrolloff=10
